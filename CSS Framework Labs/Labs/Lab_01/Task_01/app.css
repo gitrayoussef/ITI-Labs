@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    background-color: gainsboro;
+    justify-content: space-around;
+}
+
+.main {
+    display: flex;
+    justify-content:center;
+    margin: 2px;
+}
+
+.section {
+    border: 2px solid black;
+    text-align: center;
+    flex-basis: 50%;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-text{
+   margin: 15px;
+}
+
+.section-footer{
+    background-color: gainsboro;
+    margin: 0;
+}

@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 3px solid black;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  border: 3px solid orange;
+  width: 75px;
+  height: 50px;
+}
+
+.item-text {
+  margin: 0;
+}
