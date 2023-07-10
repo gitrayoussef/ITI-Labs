@@ -32,3 +32,15 @@ https://github.com/gitrayoussef/ITI-Labs/assets/105010669/ea61b06a-3f87-4115-a33
 
 https://github.com/gitrayoussef/ITI-Labs/assets/105010669/ab89a225-6120-42b3-8c96-3fe4d025c684
 
+## [CSS Framework Labs](https://github.com/gitrayoussef/ITI-Labs/tree/main/CSS%20Framework%20Labs)
+### CSS Framework Labs/Labs/Lab_01
+[Link to Lab Folder](https://github.com/gitrayoussef/ITI-Labs/tree/main/CSS%20Framework%20Labs/Labs/Lab_01)
+
+https://github.com/gitrayoussef/ITI-Labs/assets/105010669/2b447525-0124-416c-8258-2161a4d8d48d
+
+### CSS Framework Labs/Labs/Lab_02/Lab_02
+[Link to Lab Folder](https://github.com/gitrayoussef/ITI-Labs/tree/main/CSS%20Framework%20Labs/Labs/Lab_02/Lab_02)
+
+
+https://github.com/gitrayoussef/ITI-Labs/assets/105010669/3f21ab9f-0c05-4015-9dcd-de3ca90d81f8
+
