@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="https://www.iti.gov.eg/iti/home">Home</a></li>
+          <li><a href="./show.html">RoadMap</a></li>
+          <li><a href="./form.html">Registration Form</a></li>
+          <li><a href="https://www.iti.gov.eg/iti/home">Contact</a></li>
+        </ul>
+        <div>
+          <img src="./Images/ITI_logo.png" alt="" />
+        </div>
+      </nav>
+    </header>
+    <div id="form_page_layout">
+      <main id="form_page_main">
+        <h1 class="form_title">Register - Create Account</h1>
+        <h3 class="form_description">
+          Field marked with <span id="star_shape">*</span> are compulsory fields
+        </h3>
+        <form action="https://www.iti.gov.eg/iti/home">
+          <table>
+            <tr>
+              <td class="table_label">
+                <label for="name"
+                  ><span id="star_shape">*</span>Your Name</label
+                >
+              </td>
+              <td class="table_input">
+                <input type="text" id="name" name="person_name" required/>
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="email"
+                  ><span id="star_shape">*</span>E-mail ID</label
+                >
+              </td>
+              <td class="table_input">
+                <input type="email" id="email" name="email" required />
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="alternate_email">Alternate E-mail ID</label>
+              </td>
+              <td class="table_input">
+                <input
+                  type="email"
+                  id="alternate_email"
+                  name="alternate_email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="phone">Your Phone</label>
+              </td>
+              <td class="table_input">
+                <div class="phone_container">
+                  <div class="phone_formatting">
+                    <label class="phone_formatting_label">Country Code</label>
+                    <input
+                      type="text"
+                      id="phone"
+                      name="alternate_email"
+                      required
+                    />
+                  </div>
+                  <div class="phone_formatting">
+                    <label class="phone_formatting_label">City Code</label>
+                    <input
+                      type="text"
+                      id="phone"
+                      name="alternate_email"
+                      required
+                    />
+                  </div>
+                  <div class="phone_formatting" width="20%">
+                    <label class="phone_formatting_label">Phone Number</label>
+                    <input
+                      type="text"
+                      id="phone"
+                      name="alternate_email"
+                      required
+                    />
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="mobile_phone">Mobile Phone</label>
+              </td>
+              <td class="table_input">
+                <input
+                  type="text"
+                  id="mobile_phone"
+                  name="mobile_phone"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="postal_address"
+                  ><span id="star_shape">*</span>Your Postal Address</label
+                >
+              </td>
+              <td class="table_input">
+                <textarea
+                  name="postal_address"
+                  id="postal_address"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="country"
+                  ><span id="star_shape">*</span>Country</label
+                >
+              </td>
+              <td class="table_input">
+                <select name="select_country" id="select_country" required>
+                  <option value="" selected>
+                    -----------Select One-----------
+                  </option>
+                  <option value="egypt">Egypt</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="password"
+                  ><span id="star_shape">*</span>Password</label
+                >
+              </td>
+              <td class="table_input">
+                <input type="password" id="password" name="password" required />
+              </td>
+            </tr>
+            <tr>
+              <td class="table_label">
+                <label for="re_password"
+                  ><span id="star_shape">*</span>Re - Enter Password</label
+                >
+              </td>
+              <td class="table_input">
+                <input
+                  type="password"
+                  id="re_password"
+                  name="re_password"
+                  required
+                />
+              </td>
+            </tr>
+            <tr class="check_box_row">
+              <td class="table_label"></td>
+              <td class="table_input">
+                <input type="checkbox" name="" id="" />
+                <label for="">I accept the Terms of Use</label>
+              </td>
+            </tr>
+            <tr class="check_box_row">
+              <td class="table_label"></td>
+              <td class="table_input">
+                  <button type="submit">Continue>></button>
+                  <button type="submit">Reset</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </main>
+    </div>
+    <footer>
+        <hr>
+          <p><b>Copyright 2022 by Noha Salah &reg;. All Rights Reserved.</b></p>
+      </footer>
+  </body>
+</html>

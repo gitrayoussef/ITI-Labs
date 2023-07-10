@@ -1,0 +1,178 @@
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  width: calc(100vw - 2rem);
+  height: 100%;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: fit-content;
+}
+
+/* START OF NAVBAR */
+header {
+  width: 100%;
+  height: 65px;
+  background-color: #3f3f42;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+header nav div img {
+  height: 60px;
+  width: 200px;
+}
+/* END OF NAVBAR */
+
+/* START OF FOOTER */
+footer p {
+  text-align: center;
+  color: black;
+}
+/* END OF FOOTER */
+
+/* START OF INDEX_PAGE_STYLING */
+#index_img {
+  width: 100%;
+  height: 100%;
+}
+/* END OF INDEX_PAGE_STYLING */
+
+/* START OF SHOW_PAGE_STYLING */
+#show_page_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#show_page_main div:nth-child(2) {
+  margin-right: 30rem;
+  align-self: center;
+}
+
+#more_details {
+  display: flex;
+  flex-direction: column;
+}
+
+#top_link {
+  align-self: center;
+}
+
+/* END OF SHOW_PAGE_STYLING */
+
+/* START OF FORM_PAGE_STYLING */
+
+#form_page_layout {
+  display: flex;
+  justify-content: center;
+}
+
+#form_page_main {
+  width: 50%;
+  background-color: rgb(125, 185, 137, 0.2);
+  margin: 0.5rem;
+  margin-top: 5rem;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.form_title {
+  color: rgb(89, 157, 103);
+}
+
+.form_description {
+  font-weight: 300;
+  background-color: rgba(101, 165, 114, 0.2);
+  border: 0.1rem dashed rgba(77, 136, 89, 0.2);
+}
+
+#star_shape {
+  color: red;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  width: 100%;
+}
+
+.table_label {
+  background-color: rgba(152, 210, 163, 0.2);
+  color: rgba(39, 65, 42, 0.5);
+  text-align: end;
+  width: 30%;
+  padding: 0.7rem;
+}
+
+
+
+.table_input input {
+  border-color: rgba(152, 210, 163, 0.3);
+  width: 60%;
+}
+
+.table_input textarea {
+  border-color: rgba(152, 210, 163, 0.3);
+}
+
+.table_input select {
+  border-color: rgba(152, 210, 163, 0.3);
+}
+
+.phone_container {
+  display: flex;
+}
+
+.phone_formatting:nth-of-type(1) {
+  width: 20%;
+}
+
+.phone_formatting:nth-of-type(2) {
+  width: 20%;
+}
+
+.phone_formatting:nth-of-type(3) {
+  width: 40%;
+}
+
+
+
+.check_box_row .table_label{
+    background-color: transparent;
+}
+
+.check_box_row input{
+    width: fit-content;
+
+}
+
+
+/* END OF FORM_PAGE_STYLING */

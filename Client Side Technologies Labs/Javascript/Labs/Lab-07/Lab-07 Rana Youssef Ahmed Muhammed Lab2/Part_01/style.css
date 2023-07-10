@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black !important;
+}
+
+#slider-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  box-shadow: 1px 5px 100px rgb(190, 190, 190);
+  transition: all 2s ease-in;
+}
+
+.next {
+  position: absolute;
+  top: calc(0%);
+  left: calc(0%);
+  width: 100%;
+  z-index: 1;
+}
+
+span {
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.567);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left-icon {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(1%);
+}
+
+.right-icon {
+  position: absolute;
+  top: calc(50% - 30px);
+  right: calc(1%);
+}
+
+.left-icon:hover,
+.right-icon:hover {
+  transform: scale(2);
+}
