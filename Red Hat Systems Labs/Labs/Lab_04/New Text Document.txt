@@ -1,0 +1,15 @@
+Task 1:
+install php version 8
+	
+create small script to write date and time and weather https://openweathermap.org/current to a log file every 60 seconds 
+	
+using logrotate; rotate the log file when size reaches 30K for max 3 log files  
+
+<https://teams.microsoft.com/l/message/19:hp0xmgrLSXaF5inK5CoAQ43gr2eJO3ee9NaZjVpimoc1@thread.tacv2/1672312973798?tenantId=ff80bb69-3cdc-4c2c-a474-313aa4dde859&amp;groupId=2864b30a-caa5-4ee4-a62c-ea388a85473d&amp;parentMessageId=1672312973798&amp;teamName=(ITP_Alex 2022-2023Q2)Full Stack using PHP -  Intake 2&amp;channelName=General&amp;createdTime=1672312973798&amp;allowXTenantAccess=false>
+
+Task 2:
+using https://openweathermap.org/forecast16 fetch the forecast to next 16 days and log the temperature with the day in log file as csv format
+	
+using php, parse the csv file and get the minimum temperature number during the next 16 days.
+	
+try the same using awk tool (hint stack overflow)

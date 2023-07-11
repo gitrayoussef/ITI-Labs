@@ -1,0 +1,8 @@
+create small script to write current date and time to a text file (hint: use date command)
+	- set the script to run every 2 seconds
+	- redirect the output to text file
+	- set the permissions to 755 for the script
+	- using nohup, run the script on the background
+	- using systemd run the script on the system startup
+	
+kill the process of which run using nohup and keep only systemd service for the scrip

@@ -1,0 +1,108 @@
+body {
+  max-width: 100vw;
+  height: 100vh;
+  background-color: rgb(245, 238, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task {
+  width: 40%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.task-input {
+    width: 85%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+
+.task-input:focus {
+    outline: 1px solid gainsboro;
+}
+
+.task-input::placeholder {
+    font-size: 14px;
+}
+
+.add-btn {
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(252, 225, 225);
+    cursor: pointer;
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.task-container {
+    width: 45%;
+    height: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+
+  .task-text {
+    width: 85%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: transparent;
+}
+
+
+.add-btn {
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(252, 225, 225);
+    cursor: pointer;
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.done-btn {
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(255, 240, 240);
+    cursor: pointer;
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+}
+
+.delete-btn {
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(255, 240, 240);
+    cursor: pointer;
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_01</title>
+    <style>
+        body {
+            max-width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            width: 175px;
+            height: 200px;
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .img_style {
+            width: 100px;
+            height: 100px;
+        }
+
+        .blackhole-pic {
+            width: 400px;
+            height: 400px;
+            align-self: flex-start;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./images/3.jpg" alt="" class="blackhole-pic">
+    <div class="container">
+        <img src="./images/2.jpg" alt="" class="img_style">
+        <p>Drag Me</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
+        integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+    <script>
+
+
+        $(".container").on("mouseover", function () { $(".img_style").effect("shake") })
+        $(".container").draggable();
+        $(".blackhole-pic").droppable({
+            drop: function (event, ui) {
+                $(".container")
+                    .hide("fade");
+            }
+        });
+
+
+
+    </script>
+</body>
+
+</html>

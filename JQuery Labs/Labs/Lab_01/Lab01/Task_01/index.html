@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #slider {
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+      }
+      .slides {
+        display: block;
+        width: 8000px;
+        height: 300px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .slide {
+        display: inline;
+        width: 500px;
+        height: 300;
+        margin-left: 0;
+      }
+      .slide img {
+        width: 500px;
+        height: 300px;
+      }
+      button {
+        width: 150px;
+        height: 40px;
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgb(101, 197, 229);
+        color: white;
+        font-size: 24px;
+        border: none;
+        border-radius: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Task_01</h1>
+    <div id="slider">
+      <ul class="slides">
+        <li class="slide"><img src="./images/1.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/2.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/3.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/4.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/5.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/6.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/7.jpg" alt="" /></li>
+        <li class="slide"><img src="./images/8.jpg" alt="" /></li>
+      </ul>
+    </div>
+    <div id="button-container">
+      <button id="stp-btn">Stop</button>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.js"
+      integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var currentSlide = 1;
+      var slidCount = $(".slides").children().length;
+      var slideTime = 2000;
+      var animationTime = 1000;
+
+      var program = setInterval(function () {
+        $(".slides").animate(
+          { marginLeft: "-=505px" },
+          animationTime,
+          function () {
+            currentSlide++;
+            if (currentSlide === slidCount) {
+              currentSlide = 1;
+              $(this).css("margin-left", "0px");
+            }
+          }
+        );
+      }, slideTime);
+
+      $("button").on("click", function () {
+        clearInterval(program);
+        program;
+      });
+    </script>
+  </body>
+</html>

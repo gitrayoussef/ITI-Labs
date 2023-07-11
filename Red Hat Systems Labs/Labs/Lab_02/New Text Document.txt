@@ -1,0 +1,10 @@
+Lab2
+	
+create the multi directories in one line command project1/share/docs/phpdocs
+	
+create group called teamA which has full permissions on the above directory recursively
+	
+create user called phpuserA member of teamA
+	
+login with user phpuserA and create file on project1/share/docs called documentA.txt
+	

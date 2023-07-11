@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(208, 230, 231);
+      }
+      h1{
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .container {
+        width: 50%;
+      }
+      .cards {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 0 20px;
+        text-align: center;
+      }
+      .card {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+      }
+      .card-image {
+        width: 100%;
+      }
+      .card-image img {
+        width: 100%;
+        height: 200px;
+      }
+      .card-text {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Task_Two</h1>
+      <div class="cards">
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/3.jpg" alt="" />
+          </div>
+          <h2 class="card-title">Web Design</h2>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
+            sequi ut voluptate sit aut id voluptatem tempora hic optio! Ut ex
+            dolorem consectetur vero quisquam rem eum ea, voluptas expedita?
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/4.jpg" alt="" />
+          </div>
+          <h2 class="card-title">E-commerce</h2>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
+            sequi ut voluptate sit aut id voluptatem tempora hic optio! Ut ex
+            dolorem consectetur vero quisquam rem eum ea, voluptas expedita?
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/5.jpg" alt="" />
+          </div>
+          <h2 class="card-title">SEO</h2>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
+            sequi ut voluptate sit aut id voluptatem tempora hic optio! Ut ex
+            dolorem consectetur vero quisquam rem eum ea, voluptas expedita?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.js"
+      integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".card").on("click", function (e) {
+        e.stopPropagation();
+        $(this).find(".card-text").toggle(2000);
+      });
+    </script>
+  </body>
+</html>
