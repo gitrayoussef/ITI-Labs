@@ -1,0 +1,17 @@
+{
+    "name": "ryous/lab_02",
+    "require": {
+        "phpunit/phpunit": "^10.0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryous\\Lab02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ranayoussef",
+            "email": "105010669+ranayoussef@users.noreply.github.com"
+        }
+    ]
+}
