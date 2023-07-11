@@ -46,11 +46,14 @@ https://github.com/gitrayoussef/ITI-Labs/assets/105010669/3f21ab9f-0c05-4015-9dc
 
 ## [PHP Labs](https://github.com/gitrayoussef/ITI-Labs/tree/main/PHP%20Labs/Labs)
 ### PHP Labs/Labs/Lab_03/Lab_03
+[Link to Lab Folder](https://github.com/gitrayoussef/ITI-Labs/tree/main/PHP%20Labs/Labs/Lab_03/Lab_03)
 https://github.com/gitrayoussef/ITI-Labs/assets/105010669/505c3f2a-b361-4798-85f9-89c2852ed471
 
 ### PHP Labs/Labs/Lab_04/Lab_04
+[Link to Lab Folder](https://github.com/gitrayoussef/ITI-Labs/tree/main/PHP%20Labs/Labs/Lab_04/Lab_04)
 https://github.com/gitrayoussef/ITI-Labs/assets/105010669/76299888-70b9-47f9-b31e-eebc09df060e
 
 ### PHP Labs/Labs/Lab_05/Lab_05
+[Link to Lab Folder](https://github.com/gitrayoussef/ITI-Labs/tree/main/PHP%20Labs/Labs/Lab_05/Lab_05)
 https://github.com/gitrayoussef/ITI-Labs/assets/105010669/f4d2e5fb-29c0-42e4-ace8-7683132d3412
 
