@@ -1,0 +1,14 @@
+<table class="table table-bordered table-dark w-25 text-center">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of getStudentDataFromAppComponent">
+        <td>{{s.studentName}}</td>
+        <td>{{s.studentAge}}</td>
+      </tr>
+    </tbody>
+  </table>

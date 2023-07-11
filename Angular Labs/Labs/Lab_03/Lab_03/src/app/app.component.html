@@ -1,0 +1,4 @@
+<div class="container p-5">
+  <app-register (sendStudentDataToAppComponent) = "getStudentObject($event)"></app-register>
+  <app-table [getStudentDataFromAppComponent]="studentsData"></app-table>
+</div>
